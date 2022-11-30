@@ -325,7 +325,7 @@ section .title::after{
     display: inline-block;
     background: rgb(28, 246, 191);
     color: #fff;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
@@ -333,6 +333,13 @@ section .title::after{
     border: 2px solid rgb(28, 246, 191);
     transition: all 0.3s ease;
 }
+
+
+
+
+
+
+
 .skills .skills-content .left a:hover{
     color: rgb(28, 246, 191);
     background: none;
@@ -691,4 +698,63 @@ footer span a:hover{
 }
 .social-media i:hover{
     color: rgb(28, 246, 191);
+}
+
+/* Github Section */
+
+
+.git  a:hover {
+    color: rgb(28, 246, 191);
+    background: none;
+}
+
+.git{
+    
+    background: url("images/GitHub2.jpeg") no-repeat center;
+    height: 50vh;
+    color: #fff;
+    min-height: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+.git .max-width{
+  width: 100%;
+  
+}
+.git .max-width .row{
+  margin-right: 0;
+}
+.git .git-content .text-1{
+    font-size: 27px;
+}
+.git .git-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.git .git-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.git .git-content .text-3 span{
+    color:rgb(28, 246, 191);
+    font-weight: 500;
+}
+.git .git-content a{
+    display: inline-block;
+    background: black;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid rgb(28, 246, 191);
+    transition: all 0.3s ease;
+}
+.git .git-content a:hover{
+    color:rgb(28, 246, 191);
+    background: none;
 }
